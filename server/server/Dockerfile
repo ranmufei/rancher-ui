@@ -40,7 +40,9 @@ ENV CATTLE_HOST_API_PROXY_MODE embedded
 
 # Environment variables commonly updated when performing a release
 ENV CATTLE_RANCHER_SERVER_VERSION v1.6.21
-ENV DEFAULT_CATTLE_API_UI_INDEX //releases.rancher.com/ui/1.6.45
+#ENV DEFAULT_CATTLE_API_UI_INDEX //releases.rancher.com/ui/1.6.45
+# 使用自己制作的静态资源
+ENV DEFAULT_CATTLE_API_UI_INDEX https://github.com/ranmufei/rancher-ui/blob/master/rancher-ui1.6.tar.gz
 ENV CATTLE_CATTLE_VERSION v0.183.60
 ENV CATTLE_RANCHER_CLI_VERSION v0.6.11
 ENV CATTLE_RANCHER_COMPOSE_VERSION v0.12.5
