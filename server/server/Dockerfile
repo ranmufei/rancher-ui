@@ -6,4 +6,4 @@ ENV DEFAULT_CATTLE_API_UI_INDEX https://raw.githubusercontent.com/ranmufei/ranch
 
 RUN  curl -sL ${DEFAULT_CATTLE_API_UI_INDEX} | tar xvzf - -C /usr/share/cattle/war --strip-components=1
 
-ADD service/licence/ /service/
+ADD service/licence /service/licence
