@@ -19,7 +19,7 @@ url='http://licence.03in.net:81' # 授权服务器地址
 
 if [ ! -f "$lock" ];then
 	if [ ! -f $sysfile ];then
-		exec sh sys.sh > $sysfile
+		exec sh system.sh > $sysfile
 	fi		
 	string=`head -1 $sysfile`
 	md5=$(md5sum $sysfile|cut -d ' ' -f1)
