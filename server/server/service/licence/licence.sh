@@ -13,7 +13,7 @@ lock="lock" # 授权锁定 标示已授权
 
 sysfile='sysinfo' # 生成的系统信息文件名称
 
-url='http://licence.03in.net:81' # 授权服务器地址
+url='http://licence.linksame.com' # 授权服务器地址
 
 
 
